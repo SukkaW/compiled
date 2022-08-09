@@ -381,7 +381,7 @@ describe('#css-transform', () => {
       );
 
       expect(actual.join('')).toMatchInlineSnapshot(
-        `"._2a8pglyw div{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}"`
+        `"._2a8pglyw div{-webkit-user-select:none;-moz-user-select:none;user-select:none}"`
       );
     });
 
@@ -426,9 +426,7 @@ describe('#css-transform', () => {
         `
       );
 
-      expect(actual.join('')).toMatchInlineSnapshot(
-        `"._tkqh11p5 div{display:-ms-grid;display:grid}"`
-      );
+      expect(actual.join('')).toMatchInlineSnapshot(`"._tkqh11p5 div{display:grid}"`);
     });
   });
 });
