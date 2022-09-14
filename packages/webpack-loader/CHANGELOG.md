@@ -1,5 +1,13 @@
 # @compiled/webpack-loader
 
+## 0.9.3
+
+### Patch Changes
+
+- dcb333a2: Use less likely to clash variable names in styled template
+- Updated dependencies [dcb333a2]
+  - @compiled/babel-plugin@0.16.5
+
 ## 0.9.2
 
 ### Patch Changes

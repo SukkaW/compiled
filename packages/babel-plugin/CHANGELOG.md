@@ -1,5 +1,11 @@
 # @compiled/babel-plugin
 
+## 0.16.5
+
+### Patch Changes
+
+- dcb333a2: Use less likely to clash variable names in styled template
+
 ## 0.16.4
 
 ### Patch Changes
